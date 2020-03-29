@@ -66,7 +66,7 @@ function readData(id) {
         var layout2 = {
             xaxis:{title: "OTU ID"},
             height: 500,
-            width: 1000
+            width: 1200
         };
   
         // Create the data array for the plot
@@ -103,7 +103,7 @@ function readData(id) {
         //Defining the gauge chart layout
         var layout3 = { 
             width: 500, 
-            height: 400, 
+            height: 500, 
             margin: { t: 20, b: 40, l:100, r:100 } 
           };
         Plotly.newPlot("gauge", data3, layout3);
