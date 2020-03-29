@@ -65,7 +65,7 @@ function readData(id) {
         //Defining the bubble plot layout
         var layout2 = {
             xaxis:{title: "OTU ID"},
-            height: 600,
+            height: 500,
             width: 1000
         };
   
@@ -102,8 +102,8 @@ function readData(id) {
 
         //Defining the gauge chart layout
         var layout3 = { 
-            width: 700, 
-            height: 600, 
+            width: 500, 
+            height: 400, 
             margin: { t: 20, b: 40, l:100, r:100 } 
           };
         Plotly.newPlot("gauge", data3, layout3);
